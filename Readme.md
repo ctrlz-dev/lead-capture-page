@@ -1,4 +1,4 @@
-Projeto criado com o obetivo de consolidar e aprimorar os aprendizados de HTML e estilos CSS obtidos no curso 'Discover', concluindo o desafio "RocketNews" da Rocketseat.
+Projeto criado com o obetivo de consolidar e aprimorar os aprendizados de HTML e CSS obtidos no curso 'Discover', concluindo o desafio "RocketNews" da Rocketseat.
 
 Durante a realização desse projeto, pratiquei a utilização de formulários e seus atributos básicos, como 'placeholder', 'pattern', 'length' e 'title', além de aprimorar meus conhecimentos em CSS através da utilização de pseudoelementos.
 
