@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body .background {
+    width: 50%; /* Largura de 50% da página */
+    height: 100%; /* Altura de 100% da página*/
+    background: url(assets/read_news.jpg) no-repeat right; /* image - repeat - position */
+    background-size: cover;
+    position: absolute; /* Posicionamento acima do background */
+    right: 0; /* Deslocamento para o lado direito da tela */
+}
+
+header {
+    padding-left: 30px;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+    color: #04d361;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+p.strong {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+form {
+    color: #a8a8a8;
+    padding: 40px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+#email_login {
+    width: 60%;
+    height: 48px;
+    padding: 10px;
+    border: none;
+    border-left: 5px solid #04d361;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    box-shadow: 4px 4px 12px -2px;
+}
+
+#email_login:focus {
+    outline: none;
+}
+
+form button {
+    background-color: #8257e5;
+    border: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    left: -52px;
+}
+
+#email_login, form button {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+}
+
+
+a {
+    color: #8257e5;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a, .arrow {
+    vertical-align: middle;
+}
+
+a:hover {
+    text-decoration: underline #8257e5;
+}
